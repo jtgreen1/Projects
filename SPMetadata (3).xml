@@ -1,0 +1,20 @@
+<md:EntityDescriptor entityID="splunk-Cloud" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata"><md:SPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol" AuthnRequestsSigned="true" WantAssertionsSigned="true"><md:KeyDescriptor><ds:KeyInfo><ds:X509Data><ds:X509Certificate>
+MIIDMjCCAhoCCQCrigy2UwzhnjANBgkqhkiG9w0BAQsFADB/MQswCQYDVQQGEwJV
+UzELMAkGA1UECAwCQ0ExFjAUBgNVBAcMDVNhbiBGcmFuY2lzY28xDzANBgNVBAoM
+BlNwbHVuazEXMBUGA1UEAwwOU3BsdW5rQ29tbW9uQ0ExITAfBgkqhkiG9w0BCQEW
+EnN1cHBvcnRAc3BsdW5rLmNvbTAeFw0yMTExMTEwMDQzMTBaFw0yNDExMTAwMDQz
+MTBaMDcxIDAeBgNVBAMMF1NwbHVua1NlcnZlckRlZmF1bHRDZXJ0MRMwEQYDVQQK
+DApTcGx1bmtVc2VyMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA3llU
+Lb6ExqEi2YzGpupbflxzN4j5m0C25ohZZE/HymlDDDuwhsbnBCbA2eVu9H6rDzhJ
+S/cDGxJLdJOLNzpNB7M9nQN8E+y7CtGzRr+dPW14euZXUGfF6tumOhF2UAf0z8K8
+f4MmNiQ5sFPk6KenaTlb9seYzJanksioTN/DXa8RH0+JzyJkNwWtFAy48qY882ut
+3rzjqPRy92wp7S3It60lGkG6Wqti6LrXEeUhffAb5XyiLzMFMYzOICt5oVbNOeKn
+jPyhVJdElArqjJknbOi+hMN9+V0qlJJMdQq+pgqsNTl/Vm0Ho+l1gQQ6c7ong3FO
+RfLMXQyeycLj8qaAIQIDAQABMA0GCSqGSIb3DQEBCwUAA4IBAQACsTByq1D3+pCw
+/t8FG+6ObGdyc8ulTtDlVsWogwqJ4GkJFcDVu9DIxI95kAgtiivZgHRJ3UCehbLC
+vsf+seNnpxt2db8x+ORgsBl0KPnoaiQKrA6sJH8FYPzGA6LnyO4FOl72yKAzj6Qg
+/l0kdsgO09TMfo/5zvM0IF8tATpnq1hi5WLBbVEXMiZ28/RTS7OHnIj/RmOAIIxZ
+9BDkmr59X6PGTdjtJTjXwr1lNIZWVRLhbUcx0b9sUmPuYot1Ont94dGxtoIM8ymy
+XOxyVVoYNAbTDNUPhLvUqkM5jmv3UDkvWfP5gvDWXSDGpz+ON6LFCuGF9l3ht93M
+gvCqwh0+
+</ds:X509Certificate></ds:X509Data></ds:KeyInfo></md:KeyDescriptor><md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:persistent</md:NameIDFormat><md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://sh-i-0b6c1f3a88102aca8:8443/saml/logout" index="0"></md:SingleLogoutService><md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://sh-i-0b6c1f3a88102aca8:8443/saml/acs" index="0"></md:AssertionConsumerService></md:SPSSODescriptor></md:EntityDescriptor>
